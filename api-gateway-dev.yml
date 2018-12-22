@@ -10,6 +10,7 @@ zuul:
 #      sensitiveHeaders:
 #      简洁写法   2
     product: /myProduct/**
+    user：/user/**
 # 禁止路由地址
   ignored-patterns:
 #  第一种
