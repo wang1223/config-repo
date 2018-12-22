@@ -6,9 +6,10 @@ zuul:
 #      serviceId: product
 #      简洁写法   2
     product: /myProduct/**
+# 禁止路由地址
   ignored-patterns:
 #  第一种
 #    - /product/product/msg
 #    - /myProduct/product/msg
 #第二种
-    - /**/product/msg
+#     - /**/product/msg
